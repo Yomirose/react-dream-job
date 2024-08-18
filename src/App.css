@@ -1,38 +1,112 @@
-.App {
-  text-align: center;
+.App{
+  background-color: black;
+  min-height: 200vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.navbar{
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  justify-content: space-around;
+  padding-top: 80px;
+}
+.nav-bar{
+  display: flex;
+  justify-content: space-around;
 }
 
-.App-link {
-  color: #61dafb;
+.link-div{
+  margin-right: 400px;
+  margin-top: 10px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.App-link{
+    font-size: 15px;
+    text-decoration: none;
+    color: #909090;
+    padding-top: 15px;
+    word-spacing: 4px;
+}
+
+.App-logo{
+  width: 90px;
+  padding-left: 100px;
+}
+
+.hero-sec{
+  color: #909090;
+  text-align: center;
+  line-height: 10px;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.nav-button{
+  margin-right: 70px;
+}
+
+.button-one{
+  margin-right: 10px;
+  width: 90px;
+  height: 35px;
+  border-radius: 12px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: black;
+  border: 1px solid #6DE754;
+}
+
+.button-two{
+  width: 100px;
+  height: 35px;
+  border-radius: 12px;
+  color: #ffff;
+  font-size: 15px;
+  background-color: #6DE754;
+  border:  none;
+}
+
+.hero-section{
+  color: #ffff;
+  font-weight: 600;
+  font-size: 80px;
+  line-height: 15px;
+  text-align: center;
+  padding-top: 80px;
+}
+
+.hero-p{
+  color: #6DE754;
+}
+
+.card-section{
+  display: flex;
+  gap: 16px;
+  margin-top: 50px;
+  margin-left: 90px;
+}
+
+.card{
+  background-color: #1E201D;
+  border-radius: 12px;
+  width: 361px;
+  height: 230px;
+}
+
+.card-img{
+  padding-top: 10px;
+  padding-left: 30px;
+}
+
+.card-h1{
+  font-size: 16px;
+  font-weight: 600;
+  color: #ffff;
+  padding-left: 30px;
+}
+
+.card-p{
+  color: #909090;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 15px;
+  padding-left: 30px;
 }
